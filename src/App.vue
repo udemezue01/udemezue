@@ -1,5 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-red-100">
+
+  	<navbar> </navbar>
 
     <router-view/>
   </div>
@@ -8,3 +10,30 @@
 <style>
 
 </style>
+
+<script >
+
+import navbar from './components/Navbar.vue'
+
+export default {
+
+components:{
+
+	navbar,
+
+},
+
+data(){
+
+	return{
+
+
+	}
+},
+
+
+}
+	
+
+
+</script>

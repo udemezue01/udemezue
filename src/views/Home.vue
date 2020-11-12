@@ -1,12 +1,7 @@
 <template>
-  <div class="home">
+  <div id="home" class="h-full bg-white">
 
-  	<Navbar> </Navbar>
 
-  	<div>
-  		
-  		We cna get started
-  	</div>
   
   </div>
 </template>
@@ -14,12 +9,12 @@
 <script>
 // @ is an alias to /src
 
-import Navbar from '@/components/Navbar.vue'
+// import Navbar from '@/components/Navbar.vue'
 
 export default {
   name: 'Home',
   components: {
-    Navbar
+    // Navbar
   },
 
   data(){
