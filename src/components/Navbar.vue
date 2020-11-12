@@ -3,11 +3,11 @@
 
   <!--   The navigational bar section -->
 
-    <div class="bg-white flex justify-between py-4 px-4 items-center shadow-sm">
+    <div class="bg-black flex justify-between py-4 px-4 items-center shadow-sm">
       
-      <div class="text-gray-800">
+      <div class="text-white">
 
-        <span> udemezue John </span>
+        <span class="text-yellow-600 text-2xl"> udemezue </span>
       </div>
 
       <div class="block lg:hidden">
@@ -18,7 +18,7 @@
 
       <div class="hidden lg:block">
         
-        <ul class = "text-gray-800 list-none flex items-center justify-between space-x-3"> 
+        <ul class = "text-white list-none flex items-center justify-between space-x-3"> 
 
         <li> About me</li>
          <li> Projects</li>
