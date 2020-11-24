@@ -3,7 +3,7 @@
 
   <!--   The navigational bar section -->
 
-    <div class="bg-black flex justify-between py-4 px-4 items-center shadow-sm">
+    <div class="bg-black flex justify-between py-4 px-6 lg:px-32 items-center shadow-sm">
       
       <div class="text-white">
 
