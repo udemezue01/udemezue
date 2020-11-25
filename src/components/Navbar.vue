@@ -3,27 +3,21 @@
 
   <!--   The navigational bar section -->
 
-    <div class="bg-black flex justify-between py-4 px-6 lg:px-32 items-center shadow-sm">
+    <div class="bg-gray-50 flex justify-between py-4 px-6 lg:px-32 items-center shadow">
       
       <div class="text-white">
 
-        <span class="text-yellow-600 text-2xl"> udemezue </span>
+        <img src="/img/helmet.svg" class="h-9 w-9">
       </div>
 
-      <div class="block lg:hidden">
+      
 
-        <h1> This is a heading</h1>
+      <div class="flex items-center">
+
+        <a href="" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</a>
+
         
-      </div>
-
-      <div class="hidden lg:block">
-        
-        <ul class = "text-white list-none flex items-center justify-between space-x-3"> 
-
-        <li> About me</li>
-         <li> Projects</li>
-
-      </ul>
+    
 
       </div>
 
