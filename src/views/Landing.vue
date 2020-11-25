@@ -9,7 +9,7 @@
 
         <h1 class="font-body text-gray-900 text-white underline uppercase tracking-widest font-extrabold text-5xl lg:text-7xl"> Udemezue <br><span class="text-6xl underline"> John </span></h1>
 
-        <p class="mt-8 font-body font-medium text-gray-900 text-2xl tracking-wider"> Full Stack Web Developer, Digital Marketing <br>& Entrpreneur</p>
+        <p class="mt-8 font-body font-medium text-gray-900 text-2xl tracking-wider"> Full Stack Web Developer, Digital Marketing <br> Expert & Entrepreneur</p>
 
             <!-- The social Media section -->
 
