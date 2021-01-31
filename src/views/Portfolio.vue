@@ -11,6 +11,8 @@
 
 
 <script >
+
+// import {PORTFOLIO_LIST} from '../graph/queries.js';
 	
 
 export default{

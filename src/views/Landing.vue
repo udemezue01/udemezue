@@ -18,14 +18,14 @@
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
 </svg></a>
-        <a href="">
+        <a href="https://Twitter.com/_udemezue">
           
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter h-6 w-6"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
 </svg>
         </a>
-        <a href="">
+        <a href="https://github.com/udemezue01">
           
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github h-6 w-6"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -41,14 +41,14 @@
 
         <div class="flex items-center space-x-8 mt-12">
 
-          <a class="bg-gray-900 text-white py-3 px-4 rounded-lg font-body font-medium inline-flex space-x-2">
+          <router-link to="/portfolio"class="bg-gray-900 text-white py-3 px-4 rounded-lg font-body font-medium inline-flex space-x-2">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
 
             <span>
                 portfolio
             </span>
           
-          </a>
+          </router-link>
 
           <a class="bg-red-600 text-white py-3 px-3 rounded-lg font-body font-medium inline-flex space-x-2">
 
@@ -80,7 +80,7 @@
 
     <!-- The footer section -->
 
-    <footer class="mt-32 kg:px-32">
+    <footer class="mt-32 lg:px-32">
       
   
 

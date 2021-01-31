@@ -7,14 +7,18 @@
       
       <div class="text-white">
 
+        <router-link to ="/">
+
         <img src="/img/helmet.svg" class="h-9 w-9">
+
+      </router-link>
       </div>
 
       
 
       <div class="flex items-center">
 
-        <a href="" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</a>
+        <router-link to="/blog" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</router-link>
 
         
     

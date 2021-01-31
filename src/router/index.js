@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Landing from '../views/Landing.vue'
+import Portfolio from '../views/Portfolio.vue'
+
+// The Blog List and Detail
+
+import BlogList from '../views/Blog/Blog-List.vue'
+import BlogDetail from '../views/Blog/Blog-Detail.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +16,20 @@ Vue.use(VueRouter)
     name: 'Landing',
     component: Landing
   },
+
+    {
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: Portfolio
+  },
+
+     {
+    path: '/blog',
+    name: 'Blog',
+    component: BlogList
+  },
+
+
   {
     path: '/about',
     name: 'About',
