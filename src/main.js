@@ -8,7 +8,7 @@ import '@/assets/css/tailwinds.css'
 
 import VueMeta from 'vue-meta'
 
-// import apolloProvider from './apollo'
+import apolloProvider from './apollo'
 
 
 
@@ -19,6 +19,6 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  // apolloProvider,
+  apolloProvider,
   render: h => h(App)
 }).$mount('#app')
