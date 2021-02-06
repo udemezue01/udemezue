@@ -14,7 +14,7 @@ module.exports = {
 
   	fontFamily:{
 
-  	'body':['Inter']
+  	'body':['DM Sans']
 
   	},
     extend: {},

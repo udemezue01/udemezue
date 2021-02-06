@@ -18,7 +18,7 @@
 
       <div class="flex items-center">
 
-        <router-link to="/blog" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</router-link>
+        <a href="https://udemezue.hashnode.dev" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</a>
 
         
     
