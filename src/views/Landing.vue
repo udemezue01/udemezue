@@ -9,7 +9,7 @@
 
         <h1 class="font-body text-gray-900 text-white underline uppercase tracking-widest font-extrabold text-5xl lg:text-7xl"> Udemezue <br><span class="text-6xl underline"> John </span></h1>
 
-        <p class="mt-8 font-body font-medium text-gray-900 text-2xl tracking-wider"> Full Stack Web Developer, Digital Marketing <br> Expert & Entrepreneur</p>
+        <p class="mt-8 font-body font-medium text-gray-900 text-2xl tracking-wider"> Full Stack Web Developer, Digital Marketing  Expert & Entrepreneur</p>
 
             <!-- The social Media section -->
 
@@ -39,7 +39,7 @@
     <!--   end of the social media section -->
 
 
-        <div class="flex items-center space-x-8 mt-12">
+        <div class="flex items-center space-x-6 mt-12">
 
           <router-link to="/portfolio"class="bg-gray-900 text-white py-3 px-4 rounded-lg font-body font-medium inline-flex space-x-2">
            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
@@ -52,7 +52,7 @@
 
           <a class="bg-red-600 text-white py-3 px-3 rounded-lg font-body font-medium inline-flex space-x-2">
 
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
             <span class="font-body tracking-wider"> Hire Me</span>
           </a>
 
