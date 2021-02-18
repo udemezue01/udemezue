@@ -11,7 +11,6 @@ import VueApollo from 'vue-apollo'
 
 
 
-
 const authMiddleware = new ApolloLink((operation, forward) => {
   // add the authorization to the headers
   const token = localStorage.getItem(AUTH_TOKEN)
@@ -23,6 +22,7 @@ const authMiddleware = new ApolloLink((operation, forward) => {
 
   return forward(operation)
 })
+
 
 // HTTP connection to the API
 const httpLink = createHttpLink({
@@ -37,7 +37,9 @@ const cache = new InMemoryCache()
 
 // Create the apollo client
 export const apolloClient = new ApolloClient({
-  link: authMiddleware.concat(httpLink),
+  // The authentication authMiddleware
+  // link: authMiddleware.concat(httpLink),
+  link: httpLink,
   cache,
   connectToDevTools: true,
 })

@@ -1,12 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Landing from '../views/Landing.vue'
-import Portfolio from '../views/Portfolio.vue'
+
 
 // The Blog List and Detail
 
 import BlogList from '../views/Blog/Blog-List.vue'
 import BlogDetail from '../views/Blog/Blog-Detail.vue'
+
+// The portfolio List and Detail
+
+import PorfolioList from '../views/Portfolio/Portfolio-List.vue'
+import PortfolioDetail from '../views/Portfolio/Portfolio-Detail.vue'
 
 Vue.use(VueRouter)
 
@@ -20,7 +25,7 @@ Vue.use(VueRouter)
     {
     path: '/portfolio',
     name: 'Portfolio',
-    component: Portfolio
+    component: PorfolioList
   },
 
      {
