@@ -5,12 +5,10 @@ import Landing from '../views/Landing.vue'
 
 // The Blog List and Detail
 
-import BlogList from '../views/Blog/Blog-List.vue'
 import BlogDetail from '../views/Blog/Blog-Detail.vue'
 
 // The portfolio List and Detail
 
-import PorfolioList from '../views/Portfolio/Portfolio-List.vue'
 import PortfolioDetail from '../views/Portfolio/Portfolio-Detail.vue'
 
 Vue.use(VueRouter)
@@ -19,19 +17,19 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Landing',
-    component: Landing
+    component: () => import('../views/Landing.vue')
   },
 
     {
     path: '/portfolio',
     name: 'Portfolio',
-    component: PorfolioList
+    component: () => import('../views/Portfolio/Portfolio-List.vue')
   },
 
      {
     path: '/blog',
     name: 'Blog',
-    component: BlogList
+    component: () => import('../views/Blog/Blog-List.vue')
   },
 
 

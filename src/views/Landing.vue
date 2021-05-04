@@ -76,6 +76,110 @@
 
     <!-- End of the introductory section -->
 
+    <!-- The stack section -->
+
+
+<section class="mt-12 px-6 lg:px-32 space-y-4">
+  <div class="space-y-4">
+
+    <h1 class=" text-3xl tracking-wider font-body font-bold"> Stacks.</h1>
+
+  <p class="text-gray-700 tracking-wider font-body text-xl">Here are the few stacks that I am confortable with. </p>
+  
+    
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
+
+      <img src="/img/vue-dot-js.svg" class="w-auto h-auto object-center object-cover">
+<!--      
+    
+ -->
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg"> 
+
+
+      Vue JS</h1>
+
+      <p class="text-center text-gray-800 tracking-wider font-body text-base">
+        
+
+      </p>
+
+      
+
+
+
+    </div>
+    <div class="bg-white px-4 py-6 space-y-3 shadow rounded-lg">
+
+      <img src="/img/django.svg" class="w-auto h-auto object-center object-cover">
+
+
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg">  Django</h1>
+
+  
+
+    </div>
+
+    <div class="bg-white px-4 py-6 space-y-3 shadow rounded-lg">
+      <img src="/img/wordpress.svg" class="w-auto h-auto object-center object-cover">
+
+  
+
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg"> 
+      WordPress</h1>
+
+  
+
+    </div>
+
+    <div class="bg-white px-4 py-6 space-y-3 shadow rounded-lg">
+      <img src="/img/facebook.svg" class="w-auto h-auto object-center object-cover">
+
+  
+
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg"> 
+      Facebook Marketing</h1>
+
+  
+
+    </div>
+
+
+    <div class="bg-white px-4 py-6 space-y-3 shadow rounded-lg">
+      <img src="/img/googleads.svg" class="w-auto h-auto object-center object-cover">
+
+  
+
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg"> 
+      Google ads</h1>
+
+  
+
+    </div>
+
+    <div class="bg-white px-4 py-6 space-y-3 shadow rounded-lg">
+      <img src="/img/blogger.svg" class="w-auto h-auto object-center object-cover">
+
+  
+
+      <h1 class="text-center text-gray-800 tracking-wider font-body text-lg"> 
+      Content & SEO</h1>
+
+  
+
+    </div>
+    
+
+  </div>
+
+  
+
+</section>
+
+    <!-- End of the stack section -->
     
 
     <!-- The footer section -->
@@ -97,23 +201,4 @@
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
 
-// import Navbar from '@/components/Navbar.vue'
-
-export default {
-  name: 'Landing',
-  components: {
-    // Navbar
-  },
-
-  data(){
-
-  	return{
-
-
-  	}
-  }
-}
-</script>

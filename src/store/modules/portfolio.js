@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import { apolloClient } from '../../apollo'
 import {PORTFOLIO_LIST} from '../../graph/queries.js'
 
@@ -11,14 +6,14 @@ import {PORTFOLIO_LIST} from '../../graph/queries.js'
 const state =  {
 
 	portfolios:[],
-	portfolio:''
+	portfolio:'',
 
 };
 
 
 const getters = {
 
-
+	allPortfolios:(state) => state.portfolios,
 
 };
 
@@ -39,7 +34,7 @@ const mutations = {
 
 const actions = {
 
- // The portfolio list API 
+ // The Portfolio list API 
 
 async portfolioList({commit}){
 
@@ -60,7 +55,7 @@ async portfolioList({commit}){
 
 },
 
-// The portfolio detail API
+// The Portfolio Detail API
 
 async portfolioDetail({commit}, ){
 
@@ -77,7 +72,16 @@ async portfolioDetail({commit}, ){
 	}
 },
 
+//The Portfolio Create API
+
 // async portfolioCreate({commit}, ...portfolioDetail){
+
+
+// },
+
+// The Portfolio Delete API
+
+// async portfolioDelete({commit}){
 
 
 // },
