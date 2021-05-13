@@ -18,7 +18,7 @@
 
       <div class="flex items-center">
 
-        <a href="https://udemezue.hashnode.dev" class="px-3 py-2 bg-gray-900 font-body font-medium tracking-wider rounded-lg text-white"> Blog</a>
+        <a href="https://udemezue.hashnode.dev" class="ring-1 ring-gray-800 text-gray-800 bg-transparent px-3 py-2 font-body font-medium tracking-widest rounded-sm"> Blog</a>
 
         
     

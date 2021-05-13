@@ -1,25 +1,40 @@
 <template>
-  <div id="app" class="h-screen bg-gray-50">
+  <div id="app" class="h-full bg-gray-50">
 
-  	<navbar> </navbar>
+  	<!-- The Navigational Bar -->
 
-    <router-view/>
+  		<navbar> </navbar>
+
+  	<!-- End Of The Navigational Bar  -->
+
+  	<router-view/>
+
+  	<!-- The Footer -->
+
+  	<footbar class="mt-32"> </footbar>
+
+
+  	<!-- End Of The Footer -->
+
+ 
+    
   </div>
 </template>
 
-<style>
 
-</style>
 
 <script >
 
 import navbar from './components/Navbar.vue'
+
+import footbar from './components/Footbar.vue'
 
 export default {
 
 components:{
 
 	navbar,
+	footbar
 
 },
 
@@ -37,3 +52,7 @@ data(){
 
 
 </script>
+
+<style>
+
+</style>

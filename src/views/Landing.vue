@@ -41,19 +41,19 @@
 
         <div class="flex items-center space-x-6 mt-12">
 
-          <router-link to="/portfolio"class="bg-gray-900 text-white py-3 px-4 rounded-lg font-body font-medium inline-flex space-x-2">
+          <router-link to="/portfolio"class="ring-1 ring-gray-800 text-gray-800 bg-transparent py-3 px-4 font-body font-medium inline-flex space-x-2 rounded-sm">
            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
 
-            <span class="font-body tracking-wider">
+            <span class="font-body tracking-widest">
                 portfolio
             </span>
           
           </router-link>
 
-          <a class="bg-red-600 text-white py-3 px-3 rounded-lg font-body font-medium inline-flex space-x-2">
+          <a class="ring-1 ring-red-600 text-red-600 bg-transparent text-white py-3 px-3 font-body font-medium inline-flex space-x-2 rounded-sm">
 
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-            <span class="font-body tracking-wider"> Hire Me</span>
+            <span class="font-body tracking-widest"> Hire Me</span>
           </a>
 
       
@@ -82,7 +82,7 @@
 <section class="mt-12 px-6 lg:px-32 space-y-4">
   <div class="space-y-4">
 
-    <h1 class=" text-3xl tracking-wider font-body font-bold"> Stacks.</h1>
+    <h1 class=" text-3xl tracking-widest font-body font-bold"> Stacks.</h1>
 
   <p class="text-gray-700 tracking-wider font-body text-xl">Here are the few stacks that I am confortable with. </p>
   
@@ -180,18 +180,43 @@
 </section>
 
     <!-- End of the stack section -->
+
+     <!-- Hype section -->
+
+     <section class="mt-12 px-6 lg:px-32 grid grid-cols-1 lg:grid-cols-2">
+
+      <div class="bg-white space-y-12 p-12 lg:p-24">
+          
+          <h1 class="text-6xl font-body tracking-wider"> I Build Stuffs.</h1>
+
+
+          <p class="text-3xl font-body tracking-wider text-gray-700"> Take a sneakpeak of my projects</p>
+
+          <button class="ring-1 ring-gray-800 text-gray-800 bg-transparent px-3 py-3 font-body tracking-widest rounded-sm ">See My Work </button>
+
+      </div>
+
+      <div class=" bg-white space-y-12 p-12 lg:p-24">
+        
+
+          <h1 class="text-6xl font-body tracking-wider"> I Write For The Future.</h1>
+
+
+          <p class="text-3xl font-body tracking-wider text-gray-700"> Take a sneakpeak Of What My Articles Look Like</p>
+
+          <button class="ring-1 ring-gray-800 text-gray-800 bg-transparent px-3 py-3 font-body tracking-widest rounded-sm">Read My Articles </button>
+
+      </div>
+       
+
+
+     </section>
+
+
+
+     <!-- End Of The Hype Section -->
     
 
-    <!-- The footer section -->
-
-    <footer class="mt-32 lg:px-32">
-      
-  
-
-    </footer>
-
-
-   <!--  End of the footer section -->
 
 
 

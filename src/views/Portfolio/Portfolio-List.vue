@@ -6,9 +6,9 @@
 
 			
 
-		<ul v-for="portfolio in Portfolios" class="grid grid-cols-3">
+		<ul v-for="portfolio in portfolios" class="grid grid-cols-3">
 			
-			
+			<li>{{portfolio.title}}</li>
 
 		</ul>
 			
@@ -35,13 +35,13 @@ export default {
 
 computed:{
 
-	...mapGetters(['allPortfolios']),
-	...mapState(['portfolios'])
-
-	},
+	...mapState(['portfolios']),
+},
 
 created(){
-		this.$store.dispatch('portfolioList');
+		
+
+	this.$store.dispatch('portfolioList');
 
 	
 	}

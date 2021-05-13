@@ -20,6 +20,7 @@ Vue.use(VueRouter)
     component: () => import('../views/Landing.vue')
   },
 
+  // Portfolio List and Detail
     {
     path: '/portfolio',
     name: 'Portfolio',
@@ -27,9 +28,23 @@ Vue.use(VueRouter)
   },
 
      {
+    path: '/portfolio/:id',
+    name: 'Portfolio-Detail',
+    component: () => import('../views/Portfolio/Portfolio-Detail.vue')
+  },
+
+  // Blog List and Detail
+
+     {
     path: '/blog',
     name: 'Blog',
     component: () => import('../views/Blog/Blog-List.vue')
+  },
+
+       {
+    path: '/blog/:slug',
+    name: 'Blog-Detail',
+    component: () => import('../views/Blog/Blog-Detail.vue')
   },
 
 
