@@ -3,13 +3,13 @@
 
   <!--   The navigational bar section -->
 
-    <div class="bg-gray-50 flex justify-between py-4 px-6 lg:px-32 items-center shadow">
+    <div class="bg-gray-50 flex justify-between py-4 px-6 lg:px-32 items-center shadow-sm">
       
       <div class="text-white">
 
         <router-link to ="/">
 
-        <img src="/img/helmet.svg" class="h-9 w-9">
+        <img src="/img/sunlogo.svg" class="h-9 w-9">
 
       </router-link>
       </div>
