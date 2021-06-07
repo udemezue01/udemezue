@@ -3,7 +3,7 @@
 
   	<!-- The Navigational Bar -->
 
-  		<navbar> </navbar>
+  		<navbar class="sticky top-0"> </navbar>
 
   	<!-- End Of The Navigational Bar  -->
 

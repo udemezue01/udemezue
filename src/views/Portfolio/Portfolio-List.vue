@@ -1,14 +1,14 @@
 <template>
 	
-	<div class="px-6 lg:px-32">
+	<div class="px-6 lg:px-32 h-screen">
 
 		<section class="mt-24">
 
 			
 
-		<ul v-for="portfolio in portfolios" class="grid grid-cols-3">
+		<ul v-for="portfolio in portfolios" :key ="portfolio.id" class="grid grid-cols-3">
 			
-			<li>{{portfolio.title}}</li>
+			<li class="text-gray-900">{{portfolio.id}}</li>
 
 		</ul>
 			

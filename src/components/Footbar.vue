@@ -4,7 +4,7 @@
 
 	<div class="space-y-3">
 
-		<a href="" class="text-gray-100 font-body block tracking-wider"> Udemezue John</a>
+		<a href="" class="capitalize font-body text-gray-200 font-medium tracking-widest px-3 py-3 hover:bg-gray-600 rounded-md"> udemezue</a>
 
 
 		
@@ -12,9 +12,9 @@
 
 		<div class="space-y-3">
 
-		<h1 class="text-gray-100 text-md font-body block tracking-wider"> Support</h1>
 
-		<a href="" class="text-gray-100 text-base font-body block tracking-wider"> Home </a>
+
+		<a href="" class="capitalize font-body text-gray-200 font-medium tracking-widest px-3 py-3 hover:bg-gray-600 rounded-md"> Home </a>
 	
 
 		
@@ -22,7 +22,7 @@
 
 		<div class="space-y-3">
 
-		<a href="" class="text-gray-100 text-base font-body block tracking-wider"> Inspire Africa</a>
+		<a href="" class="capitalize font-body text-gray-200 font-medium tracking-widest px-3 py-3 hover:bg-gray-600 rounded-md"> Social </a>
 	
 
 		
@@ -30,7 +30,7 @@
 
 	<div class="space-y-3">
 
-		<a href="" class="text-gray-100 text-base font-body block tracking-wider"> Inspire Africa</a>
+		<a href="" class="capitalize font-body text-gray-200 font-medium tracking-widest px-3 py-3 hover:bg-gray-600 rounded-md"> Subscribe</a>
 	
 
 		

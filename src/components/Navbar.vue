@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+
 
   <!--   The navigational bar section -->
 
-    <div class="bg-gray-50 flex justify-between py-4 px-6 lg:px-32 items-center shadow-sm">
+    <nav class="bg-gray-50 flex justify-between py-3 px-6 lg:px-32 items-center shadow-sm">
       
       <div class="text-white">
 
@@ -14,23 +14,43 @@
       </router-link>
       </div>
 
-      
+      <div class="flex items-center space-x-4 hidden lg:block">
 
-      <div class="flex items-center">
+        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md "> projects</a>
 
-        <a href="https://udemezue.hashnode.dev" class="ring-1 ring-gray-800 text-gray-800 bg-transparent px-3 py-2 font-body font-medium tracking-widest rounded-sm"> Blog</a>
+        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> resume</a>
 
+        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> talks</a>
+
+        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> interests</a>
         
-    
 
       </div>
 
-    </div>
+      
+
+      <div class="flex items-center hidden lg:block">
+
+        <a href="https://udemezue.hashnode.dev" class="ring-1 ring-gray-800 text-gray-800 bg-transparent px-3 py-2 font-body text-sm tracking-widest rounded-sm"> Blog</a>
+
+      
+      </div>
+
+      <!-- The navbar toggle section -->
+      <div class="lg:hidden">
+
+        
+        
+      </div>
+
+      <!-- End of the navbar toggle section -->
+
+    </nav>
 
    <!--  End of the navigational bar section -->
   
     
-  </div>
+ 
 </template>
 
 <script>

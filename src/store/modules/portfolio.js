@@ -42,7 +42,7 @@ async portfolioList({commit}){
 
 
 		const response = await apolloClient.query({query: PORTFOLIO_LIST})
-		const portfolios = JSON.stringify(response.data)
+		const portfolios = response.data
 		commit('SET_PORTFOLIOS', portfolios)
 
 		console.log(portfolios)
