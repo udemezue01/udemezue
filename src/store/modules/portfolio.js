@@ -13,7 +13,7 @@ const state =  {
 
 const getters = {
 
-	allPortfolios:(state) => state.portfolios,
+	allPortfolios:state => state.portfolios
 
 };
 
@@ -22,12 +22,12 @@ const mutations = {
 
 	SET_PORTFOLIOS(state, portfolios){
 
-		state.portfolios = portfolios
+		state.portfolios =JSON.parse(portfolios) 
 	},
 
 	SET_PORTFOLIO(state, portfolio){
 
-		state.portfolio = portfolio
+		state.portfolio = JSON.parse(portfolio)
 	}
 
 };
@@ -42,7 +42,7 @@ async portfolioList({commit}){
 
 
 		const response = await apolloClient.query({query: PORTFOLIO_LIST})
-		const portfolios = response.data
+		const portfolios = JSON.stringify(response.data.portfolios)
 		commit('SET_PORTFOLIOS', portfolios)
 
 		console.log(portfolios)

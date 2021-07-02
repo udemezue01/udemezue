@@ -23,7 +23,7 @@ Vue.use(VueRouter)
   // Portfolio List and Detail
     {
     path: '/portfolio',
-    name: 'Portfolio',
+    name: 'Portfolio-List',
     component: () => import('../views/Portfolio/Portfolio-List.vue')
   },
 
@@ -37,7 +37,7 @@ Vue.use(VueRouter)
 
      {
     path: '/blog',
-    name: 'Blog',
+    name: 'Blog-List',
     component: () => import('../views/Blog/Blog-List.vue')
   },
 

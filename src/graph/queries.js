@@ -16,27 +16,5 @@ query {
 }
 
 
-
-`;
-
-export const PORTFOLIO_DETAIL = gql`
-
-
-query{
-
-	Portfolio(id:Int){
-
-		portfolio(id:id){
-
-			id
-		    title
-		    about
-		    image
-
-		}	
-	}
-}
-
-`;
-
+`
 
