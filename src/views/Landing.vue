@@ -83,11 +83,26 @@
 
   <transition name="fade">
   
-  <div class="bg-white space-y-4 rounded-lg shadow-lg p-12 lg:p-24">
+  <div class="bg-white space-y-6 rounded-lg shadow-lg p-12 lg:p-24">
 
-    <h1 class=" text-3xl tracking-widest font-body text-gray-700"> About me.</h1>
+    <!-- The section nav starts -->
+    <div class="flex justify-between items-center">
 
-    <p class="text-3xl leading-normal tracking-wider font-body font-medium text-gray-800 lg:leading-normal lg:text-5xl">I am an enthusiastic web developer based in Lagos, Nigeria with a rich experience of over 4 years in We development, Digital Marketing & Product Design.</p>
+      <div>
+        <a href="" class=" text-3xl tracking-widest font-body text-gray-700">About me.</a>
+      </div>
+
+     <div>
+
+
+     </div>
+    
+    </div>
+
+    <!-- The section nav ends -->
+
+
+    <p class="text-3xl leading-normal tracking-wider font-body font-medium text-gray-900 lg:leading-normal lg:text-5xl">I am an enthusiastic web developer based in Lagos, Nigeria with a rich experience of over 4 years in We development, Digital Marketing & Product Design.</p>
 
   </div>
 

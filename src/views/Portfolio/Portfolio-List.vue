@@ -7,7 +7,7 @@
 
 		<!-- 	The card section starts-->
 		
-			<div v-for ="portfolio in allPortfolios" :key="portfolio.id" class="bg-white rounded-md shadow w-full h-full">
+			<div v-for ="portfolio in allPortfolios" :key="portfolio.id" class="bg-white rounded-md shadow w-full h-full line-clamp-6">
 
 			<img :src="portfolio.image" alt="" class="object-center object-cover w-full">
 

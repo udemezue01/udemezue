@@ -16,13 +16,13 @@
 
       <div class="flex items-center space-x-4 hidden lg:block">
 
-        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md "> projects</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md "> projects</a>
 
-        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> resume</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> resume</a>
 
-        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> talks</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> talks</a>
 
-        <a href="" class="capitalize font-body text-sm tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> interests</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-gray-200 rounded-md"> interests</a>
         
 
       </div>
