@@ -1,6 +1,6 @@
 <template>
 	
-	<footer class="grid grid-cols-2 lg:grid-cols-4 bg-gray-800 px-12 lg:px-24 p-12">
+	<footer class="grid grid-cols-2 lg:grid-cols-4 bg-gray-50 px-12 lg:px-24 p-12">
 
 	<div class="space-y-3">
 
