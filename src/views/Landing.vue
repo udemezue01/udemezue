@@ -8,7 +8,7 @@
 
       <div class="w-full lg:w-1/2 space-y-10">
 
-        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-5xl lg:text-6xl"> Hi, I am <br><span class="text-8xl uppercase leading-tight">  Udemezue John </span></h1>
+        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-5xl lg:text-6xl"> Hello, I am <br><span class="text-8xl uppercase leading-tight">  Udemezue John </span></h1>
 
       
 
