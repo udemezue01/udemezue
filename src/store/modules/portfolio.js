@@ -13,7 +13,9 @@ const state =  {
 
 const getters = {
 
-	allPortfolios:state => state.portfolios
+	allPortfolios:state => state.portfolios,
+
+	featuredPortfolios: state => state.portfolios.filter(0, 3)
 
 };
 
