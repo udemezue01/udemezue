@@ -8,7 +8,13 @@
 
       <div class="w-full lg:w-1/2 space-y-10">
 
-        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-4xl md:text-5xl lg:text-6xl"> Hello, I am <br><span class="text-4xl md:text-6xl lg:text-8xl uppercase leading-tight">  Udemezue John </span></h1>
+        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-4xl"> Hello, I am Udemezue John<br> </h1>
+        
+        
+        <p class="text-3xl font-body tracking-widest text-gray-700 font-medium"> 
+            I am an enthusiastic web developer  with a rich experience in Web development, Digital Marketing & Product Design.
+          
+           </p>
 
       
 
@@ -68,7 +74,7 @@
           
         </div>
 
-        <div class="h-full w-full">
+        <div class="h-full hidden lg:block">
           <img src="/img/udemezue.jpg" class=" ring-8 ring-gray-800 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full hidden lg:block ">
 
         </div>
@@ -92,7 +98,7 @@
     <div class="flex justify-between items-center">
 
       <div>
-        <a href="" class=" text-2xl tracking-widest font-body text-gray-900">About me.</a>
+        <a href="" class=" text-3xl tracking-widest font-body text-gray-900">What I do.</a>
       </div>
 
      <div>
