@@ -86,38 +86,149 @@
     </transition>
 
     <!-- The about me section -->
-
-
-<section class="mt-12 px-6 lg:px-32 ">
-
   <transition name="fade">
+
+<section class="mt-12 px-6 lg:px-24 ">
+
+
   
   <div class="bg-white space-y-6 rounded-lg shadow p-4 lg:p-8">
 
-    <!-- The section nav starts -->
-    <div class="flex justify-between items-center">
 
-      <div>
-        <a href="" class=" text-3xl tracking-widest font-body text-gray-900">What I do.</a>
-      </div>
+        <h2  class=" text-3xl tracking-widest font-body text-gray-900">What I do.</h2>
 
-     <div>
+        <!-- The grid section -->
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24">
+
+          <!-- The card section -->
+        <div class="p-2 space-y-10">
 
 
-     </div>
+    <!-- The Icon section -->
+        <div class="block"> 
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="12" y1="9" x2="20.4" y2="9" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
+          </svg>
+
+        </div>
+<!-- End of the Icon section -->
+
+<h3 class="text-gray-800 font-body tracking-wider text-xl"> Web Development </h3>
+
+    <!-- The description section -->
+
+    <div class="block"> 
+      <p class="tracking-wider font-body text-gray-700">
+        
+      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
+      </p>
+    </div>
+
+
+    <!-- End of the description section -->
+        </div>
+
+  <!-- End of the card section -->
+
+
+        <!-- The card section -->
+        <div class="p-2 space-y-10">
+
+
+    <!-- The Icon section -->
+        <div class="block"> 
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="12" y1="9" x2="20.4" y2="9" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
+          </svg>
+
+        </div>
+<!-- End of the Icon section -->
+
+<h3 class="text-gray-800 font-body tracking-wider text-xl"> Digital Marketing </h3>
+
+    <!-- The description section -->
+
+    <div class="block"> 
+      <p class="tracking-wider font-body text-gray-700">
+        
+      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
+      </p>
+    </div>
+
+
+    <!-- End of the description section -->
+        </div>
+
+  <!-- End of the card section -->
+
+
+
+
+        <!-- The card section -->
+        <div class="p-2 space-y-10">
+
+
+    <!-- The Icon section -->
+        <div class="block"> 
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="12" y1="9" x2="20.4" y2="9" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
+            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
+          </svg>
+
+        </div>
+<!-- End of the Icon section -->
+
+<h3 class="text-gray-800 font-body tracking-wider text-xl"> Web Developer </h3>
+
+    <!-- The description section -->
+
+    <div class="block"> 
+      <p class="tracking-wider font-body text-gray-700">
+        
+      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
+      </p>
+    </div>
+
+
+    <!-- End of the description section -->
+        </div>
+
+  <!-- End of the card section -->
+
+        </div>
+
+        <!-- End of the grid section -->
+
+    
+    
     
     </div>
 
     <!-- The section nav ends -->
 
+  
 
-    <p class="text-2xl leading-normal tracking-wider font-body font-medium text-gray-600 lg:leading-normal lg:text-3xl">I am an enthusiastic web developer based in Lagos, Nigeria with a rich experience of over 4 years in We development, Digital Marketing & Product Design.</p>
-
-  </div>
-
-    </transition>
+    
 
 </section>
+
+</transition>
+
 
 
 
