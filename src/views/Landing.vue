@@ -143,15 +143,13 @@
 
     <!-- The Icon section -->
         <div class="block"> 
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ad h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <circle cx="12" cy="12" r="3" />
-            <line x1="12" y1="9" x2="20.4" y2="9" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="M7 15v-4a2 2 0 0 1 4 0v4" />
+            <line x1="7" y1="13" x2="11" y2="13" />
+            <path d="M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5" />
           </svg>
-
         </div>
 <!-- End of the Icon section -->
 
@@ -162,7 +160,7 @@
     <div class="block"> 
       <p class="tracking-wider font-body text-gray-700">
         
-      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
+        I have developed my self in practical digital Marketing such as the mastery of SEO, SEM and Social Media ads
       </p>
     </div>
 
@@ -193,7 +191,7 @@
         </div>
 <!-- End of the Icon section -->
 
-<h3 class="text-gray-800 font-body tracking-wider text-xl"> Web Developer </h3>
+<h3 class="text-gray-800 font-body tracking-wider text-xl"> Product Design </h3>
 
     <!-- The description section -->
 
