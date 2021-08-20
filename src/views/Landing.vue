@@ -8,11 +8,11 @@
 
       <div class="w-full lg:w-1/2 space-y-10">
 
-        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-4xl"> Hello, I am Udemezue John<br> </h1>
+        <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-4xl"> Hi, I'm Udemezue John</h1>
         
         
         <p class="text-3xl font-body tracking-widest text-gray-700 font-medium"> 
-            I am an enthusiastic web developer  with a rich experience in Web development, Digital Marketing & Product Design.
+            An enthusiastic web developer  with a rich experience in Web development, & Digital Marketer
           
            </p>
 
