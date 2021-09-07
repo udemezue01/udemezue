@@ -1,21 +1,21 @@
 <template>
   <div id="home" class="bg-gray-50">
 
+
     <!-- The introductory section -->
     <transition name="fade">
 
-    <div class="flex mt-32 px-6 lg:px-32 space-x-64 items-center">
+    <section class="flex mt-32 px-6 lg:px-32 space-x-64 items-center">
 
       <div class="w-full lg:w-1/2 space-y-10">
 
         <h1 class="font-body text-gray-800 text-justify tracking-wider font-extrabold text-4xl"> Hi, I'm Udemezue John</h1>
         
         
-        <p class="text-3xl font-body tracking-widest text-gray-700 font-medium"> 
+        <p class="text-xl leading-relaxed font-body tracking-widest text-gray-700 font-medium"> 
             An enthusiastic web developer  with a rich experience in Web development, & Digital Marketer
           
            </p>
-
       
 
             <!-- The social Media section -->
@@ -79,155 +79,96 @@
 
         </div>
 
-    </div>
+    </section>
+
 
     <!-- End of the introductory section -->
 
+
+     <!-- The about me section -->
+
     </transition>
-
-    <!-- The about me section -->
-  <transition name="fade">
-
-<section class="mt-12 px-6 lg:px-24 ">
-
-
-  
-  <div class="bg-white space-y-6 rounded-lg shadow p-4 lg:p-8">
-
-
-        <h2  class=" text-3xl tracking-widest font-body text-gray-900">What I do.</h2>
-
-        <!-- The grid section -->
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24">
-
-          <!-- The card section -->
-        <div class="p-2 space-y-10">
-
-
-    <!-- The Icon section -->
-        <div class="block"> 
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <circle cx="12" cy="12" r="3" />
-            <line x1="12" y1="9" x2="20.4" y2="9" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
-          </svg>
-
-        </div>
-<!-- End of the Icon section -->
-
-<h3 class="text-gray-800 font-body tracking-wider text-xl"> Web Development </h3>
-
-    <!-- The description section -->
-
-    <div class="block"> 
-      <p class="tracking-wider font-body text-gray-700">
-        
-      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
-      </p>
+    <section class="text-gray-600 body-font">
+  <div class="container px-5 lg:px-24 py-24 mx-auto ">
+    <div class="flex flex-col text-center w-full mb-20 space-y-4">
+      <h2 class="text-xs text-red-500 tracking-wider font-medium font-body mt-4">SKILLSET</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium font-body tracking-wider text-gray-900"> I have developed myself in various Fields</h1>
     </div>
-
-
-    <!-- End of the description section -->
-        </div>
-
-  <!-- End of the card section -->
-
-
-        <!-- The card section -->
-        <div class="p-2 space-y-10">
-
-
-    <!-- The Icon section -->
-        <div class="block"> 
-         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ad h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <rect x="3" y="5" width="18" height="14" rx="2" />
-            <path d="M7 15v-4a2 2 0 0 1 4 0v4" />
-            <line x1="7" y1="13" x2="11" y2="13" />
-            <path d="M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5" />
-          </svg>
-        </div>
-<!-- End of the Icon section -->
-
-<h3 class="text-gray-800 font-body tracking-wider text-xl"> Digital Marketing </h3>
-
-    <!-- The description section -->
-
-    <div class="block"> 
-      <p class="tracking-wider font-body text-gray-700">
-        
-        I have developed my self in practical digital Marketing such as the mastery of SEO, SEM and Social Media ads
-      </p>
-    </div>
-
-
-    <!-- End of the description section -->
-        </div>
-
-  <!-- End of the card section -->
-
-
-
-
-        <!-- The card section -->
-        <div class="p-2 space-y-10">
-
-
-    <!-- The Icon section -->
-        <div class="block"> 
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome h-12 w-12 stroke-current text-red-600" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <circle cx="12" cy="12" r="3" />
-            <line x1="12" y1="9" x2="20.4" y2="9" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
-            <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
-          </svg>
-
-        </div>
-<!-- End of the Icon section -->
-
-<h3 class="text-gray-800 font-body tracking-wider text-xl"> Product Design </h3>
-
-    <!-- The description section -->
-
-    <div class="block"> 
-      <p class="tracking-wider font-body text-gray-700">
-        
-      I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django
-      </p>
-    </div>
-
-
-    <!-- End of the description section -->
-        </div>
-
-  <!-- End of the card section -->
-
-        </div>
-
-        <!-- End of the grid section -->
-
-    
-    
-    
-    </div>
-
-    <!-- The section nav ends -->
-
-  
-
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col justify-items-center">
+          <div class="flex items-center mb-3 space-y-4">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
     
 
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <h2 class="text-gray-900 text-lg font-body font-medium"> Web Development</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed font-body text-base tracking-wider"> I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django.</p>
+            <a class="mt-3 text-red-500 inline-flex font-body tracking-wider items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3 space-y-4">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google h-5 w-5"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
+            </svg>
+            </div>
+            <h2 class="text-gray-900 text-lg font-body tracking-wider font-medium">Digital Marketing</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed font-body tracking-wider text-base">
+
+            I have developed my self in practical digital Marketing such as the mastery of SEO, SEM and Social Media ads
+          </p>
+            <a class="mt-3 text-red-500 font-body tracking-wider inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3 space-y-4">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-writing-sign h-5 w-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3 19c3.333 -2 5 -4 5 -6c0 -3 -1 -3 -2 -3s-2.032 1.085 -2 3c.034 2.048 1.658 2.877 2.5 4c1.5 2 2.5 2.5 3.5 1c.667 -1 1.167 -1.833 1.5 -2.5c1 2.333 2.333 3.5 4 3.5h2.5" />
+          <path d="M20 17v-12c0 -1.121 -.879 -2 -2 -2s-2 .879 -2 2v12l2 2l2 -2z" />
+          <path d="M16 7h4" />
+        </svg>
+            </div>
+            <h2 class="text-gray-900 text-lg font-body font-medium">Blogger</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed font-body tracking-wider text-base"> I create amazing contents cuts accross various niches, including Digital Marketing, SEO, Technical things and so many.</p>
+            <a class="mt-3 text-red-500 inline-flex font-body items-center tracking-wider">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+
+
 </transition>
-
-
 
 
     <!-- End of the about me section -->
