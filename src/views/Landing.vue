@@ -5,15 +5,15 @@
     <!-- The introductory section -->
     <transition name="fade">
 
-    <section class="flex mt-32 px-6 lg:px-32 space-x-64 items-center">
+    <section class="xl:flex flex-wrap mt-32 px-6 lg:px-32 space-x-64">
 
-      <div class="w-full space-y-10 lg:w-1/2 ">
+      <div class="space-y-10  ">
 
         <h1 class="font-body text-gray-800 tracking-wider font-extrabold text-4xl text-center lg:text-left"> Hi, I'm Udemezue John</h1>
         
         
         <p class="text-xl leading-relaxed font-body tracking-widest text-gray-700 font-medium text-center lg:text-left"> 
-            An enthusiastic web developer  with a rich experience in Web development, & Digital Marketer
+            An enthusiastic web developer  with a rich experience <br>in Web development, & Digital Marketer
           
            </p>
       
@@ -74,7 +74,7 @@
           
         </div>
 
-        <div class="h-full hidden lg:block">
+        <div class="h-full hidden xl:block">
           <img src="/img/udemezue.jpg" class=" ring-8 ring-gray-800 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full hidden lg:block ">
 
         </div>
@@ -88,12 +88,13 @@
      <!-- The about me section -->
 
     </transition>
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 font-body">
   <div class="container px-5 lg:px-24 py-24 mx-auto ">
     <div class="flex flex-col text-center w-full mb-20 space-y-4">
-      <h2 class="text-xs text-red-500 tracking-wider font-medium font-body mt-4">SKILLSET</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium font-body tracking-wider text-gray-900"> I have developed myself in various Fields</h1>
+      <h2 class="text-xs text-red-500 tracking-wider font-medium mt-4">SKILLSET</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium tracking-wider text-gray-900"> I have developed myself in various Fields</h1>
     </div>
+
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col justify-items-center">
@@ -103,10 +104,10 @@
 
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
-            <h2 class="text-gray-900 text-lg font-body font-medium"> Web Development</h2>
+            <h2 class="text-gray-900 text-lg font-medium"> Web Development</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed font-body text-base tracking-wider"> I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django.</p>
+            <p class="leading-relaxed text-base tracking-wider"> I am a full-stack developer who develops user interfaces using technologies like VUe JS, React Js, Taiwinds CSS and Django.</p>
             <a class="mt-3 text-red-500 inline-flex font-body tracking-wider items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -124,10 +125,10 @@
               <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
             </svg>
             </div>
-            <h2 class="text-gray-900 text-lg font-body tracking-wider font-medium">Digital Marketing</h2>
+            <h2 class="text-gray-900 text-lg tracking-wider font-medium">Digital Marketing</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed font-body tracking-wider text-base">
+            <p class="leading-relaxed tracking-wider text-base">
 
             I have developed my self in practical digital Marketing such as the mastery of SEO, SEM and Social Media ads
           </p>
@@ -150,10 +151,10 @@
           <path d="M16 7h4" />
         </svg>
             </div>
-            <h2 class="text-gray-900 text-lg font-body font-medium">Blogger</h2>
+            <h2 class="text-gray-900 text-lg font-medium">Blogger</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed font-body tracking-wider text-base"> I create amazing contents cuts accross various niches, including Digital Marketing, SEO, Technical things and so many.</p>
+            <p class="leading-relaxed  tracking-wider text-base"> I create amazing contents cuts accross various niches, including Digital Marketing, SEO, Technical things and so many.</p>
             <a class="mt-3 text-red-500 inline-flex font-body items-center tracking-wider">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -172,6 +173,96 @@
 
 
     <!-- End of the about me section -->
+
+
+      <!-- The Blog section starts -->
+
+    <section class="text-gray-600 font-body">
+
+      <!-- The Blog intro section starts -->
+
+
+       <div class="flex flex-col text-center w-full mb-20 space-y-4">
+      <h2 class="text-xs text-red-500 tracking-wider font-medium font-body mt-4">PORTFOLIO</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium font-body tracking-wider text-gray-900"> Here are some of the works done by me</h1>
+    </div>
+
+
+      <!-- The Blog Intro section ends -->
+
+
+  <div class="container px-5 lg:px-24 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+
+        <!-- Heading of the card starts -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
+          <!-- Body of the card  -->
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 tracking-wider">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3 tracking-wider">The Catalyzer</h1>
+            <p class="leading-relaxed mb-3 tracking-wider">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+        
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The heading of the card ends -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The Blog section ends -->
 
      <!-- Hype section -->
 

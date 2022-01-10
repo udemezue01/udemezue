@@ -7,10 +7,9 @@
       
       <div class="text-white">
 
-        <router-link to ="/">
+        <router-link to ="/" class="text-3xl font-body font-black tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">
 
-        <img src="/img/sunlogo.svg" class="h-9 w-9">
-
+     Udemezue
       </router-link>
       </div>
 
