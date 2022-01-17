@@ -75,7 +75,7 @@
         </div>
 
         <div class="h-full hidden xl:block">
-          <img src="/img/udemezue.jpg" class=" ring-8 ring-gray-800 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full hidden lg:block ">
+          <img src="/img/udemezue.jpeg" class=" ring-8 ring-green-700 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full hidden lg:block ">
 
         </div>
 
