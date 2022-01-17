@@ -75,7 +75,7 @@
         </div>
 
         <div class="h-full hidden xl:block">
-          <img src="/img/udemezue.jpeg" class=" ring-8 ring-green-700 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full hidden lg:block ">
+          <img src="/img/udemezue.jpeg" class=" ring-8 ring-green-700 ring-opacity-90 object-center object-cover h-80 w-80 rounded-full bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600 ">
 
         </div>
 
