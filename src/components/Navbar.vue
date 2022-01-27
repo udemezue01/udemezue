@@ -9,19 +9,19 @@
 
         <router-link to ="/" class="text-3xl font-body font-black tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">
 
-     Udemezue
+     U
       </router-link>
       </div>
 
       <div class="flex items-center space-x-4 hidden lg:block">
 
-        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-red-200 rounded-md "> projects</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-green-200 rounded-md "> projects</a>
 
-        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-red-200 rounded-md"> resume</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-green-200 rounded-md"> resume</a>
 
-        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-red-200 rounded-md"> talks</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-green-200 rounded-md"> talks</a>
 
-        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-red-200 rounded-md"> interests</a>
+        <a href="" class="capitalize font-body text-md tracking-widest px-3 py-3 hover:bg-green-200 rounded-md"> interests</a>
         
 
       </div>
@@ -30,7 +30,7 @@
 
       <div class="flex items-center hidden lg:block">
 
-        <a href="https://udemezue.hashnode.dev" class="bg-red-600 text-white px-4 py-3 font-body text-sm tracking-widest rounded-md"> Blog</a>
+        <a href="https://udemezue.hashnode.dev" class="bg-gray-800 text-white px-4 py-3 font-body text-sm tracking-widest rounded-md"> Blog</a>
 
       
       </div>
