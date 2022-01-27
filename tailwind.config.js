@@ -9,6 +9,7 @@ module.exports = {
     './src/views/Portfolio/Portfolio-Detail.vue',
     './src/views/Portfolio.vue',
     
+    './src/**/*.{js,jsx,ts,tsx, vue}',
 
  
   ],
