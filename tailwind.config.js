@@ -1,15 +1,9 @@
 module.exports = {
-  purge: [
+  content: [
 
-     './src/App.vue',
-     './src/components/Navbar.vue',
-      './src/components/Footbar.vue',
-    './src/views/Landing.vue',
-    './src/views/Portfolio/Portfolio-List.vue',
-    './src/views/Portfolio/Portfolio-Detail.vue',
-    './src/views/Portfolio.vue',
-    
-    './src/**/*.{js,jsx,ts,tsx, vue}',
+  
+    "./src/**/*.{html,js,vue}",
+    "./views/**/*.{vue}"
 
  
   ],
