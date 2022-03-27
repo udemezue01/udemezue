@@ -80,12 +80,13 @@
 
     </transition>
 
+<transition>
 
     <section class="bg-gray-50 font-body ">
   <div class="container px-5 lg:px-24 py-24 mx-auto ">
     <div class="flex flex-col text-center w-full mb-20 space-y-4">
-      <h2 class="text-4xl text-gray-800 tracking-wider font-semibold mt-4">My Services</h2>
-      <h3 class="sm:text-3xl text-2xl font-medium tracking-wider text-gray-600"> I have developed myself in various Fields</h3>
+      <h2 class="text-2xl text-gray-700 font-medium mt-4">My Services</h2>
+      <h3 class="sm:text-3xl text-2xl font-medium tracking-wider text-gray-900"> I have developed myself in various Fields</h3>
     </div>
 
     <div class="flex flex-wrap -m-4">
@@ -171,12 +172,9 @@
       </div>
 </section>
 
-
-
 </transition>
 
 
-    <!-- End of the about me section -->
 
 
       <!-- The Blog section starts -->
@@ -187,7 +185,29 @@
 
 
        <div class="flex flex-col text-center w-full mb-20 space-y-4">
-      <h2 class="text-xs text-red-500 tracking-wider font-medium font-body mt-4">PORTFOLIO</h2>
+      <h2 class="text-2xl text-gray-700 tracking-wider font-medium font-body mt-4">About me</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium font-body tracking-wider text-gray-900"> Here are some of the works done by me</h1>
+    </div>
+
+
+      <!-- The Blog Intro section ends -->
+
+
+
+</section>
+
+
+    <!-- End of the about me section -->
+
+      <!-- The Blog section starts -->
+
+    <section class="text-gray-600 font-body">
+
+      <!-- The Blog intro section starts -->
+
+
+       <div class="flex flex-col text-center w-full mb-20 space-y-4">
+      <h2 class="text-2xl text-gray-700 tracking-wider font-medium font-body mt-4">About me</h2>
       <h1 class="sm:text-3xl text-2xl font-medium font-body tracking-wider text-gray-900"> Here are some of the works done by me</h1>
     </div>
 
@@ -265,6 +285,10 @@
     </div>
   </div>
 </section>
+
+<!-- The Blog section ends -->
+
+
 
 <!-- The Blog section ends -->
 
