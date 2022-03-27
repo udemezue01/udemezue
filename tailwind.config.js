@@ -11,7 +11,7 @@ module.exports = {
 
   	fontFamily:{
 
-  	'body':['DM Sans']
+  	'body':['Manrope']
 
   	},
     extend: {},

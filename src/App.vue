@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-full bg-gray-50">
+  <div id="app" class="h-full bg-white">
 
   	<!-- The Navigational Bar -->
 
