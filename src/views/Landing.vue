@@ -5,7 +5,7 @@
     <!-- The introductory section -->
     <transition name="fade">
 
-    <section class="xl:flex  flex-wrap justify-between mt-32 p-10 xl:px-32 space-y-28 xl:space-y-0">
+    <section class="xl:flex  flex-wrap justify-between mt-32 p-10 xl:px-32 space-y-8 xl:space-y-0">
 
       <div class="space-y-20 font-body">
 
