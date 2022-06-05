@@ -66,7 +66,7 @@
         </div>
 
         <div class="">
-          <img src="/img/udemezue.jpeg" class=" ring-8 ring-gray-50  object-center object-cover h-96 w-96 rounded-full mx-auto ">
+          <img src="/img/udemezue-whatsapp.jpeg" class=" ring-8 ring-gray-50  object-center object-cover h-96 w-96 rounded-full mx-auto ">
 
         </div>
 
