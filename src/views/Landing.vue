@@ -9,11 +9,11 @@
 
       <div class="space-y-20 font-body">
 
-        <h1 class="tracking-normal text-lg font-medium text-gray-700"> Hey, I'm Udemezue John</h1>
+        <h1 class="tracking-normal text-xl font-bold text-gray-700"> Hey, I'm Udemezue John</h1>
         
   
         <p class="text-5xl font-body tracking-wider text-gray-700 font-black leading-relaxed"> 
-          I enjoy designing <br> tech websites<br> and digital products
+          I enjoy designing  tech websites<br> and digital products
           
            </p>
       
