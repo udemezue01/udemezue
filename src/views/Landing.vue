@@ -337,6 +337,23 @@
   </div>
 </template>
 
+<script>
+
+import autoAnimatePlugin  from '@formkit/auto-animate/vue'
+export default {
+
+  data(){
+
+    return{
+
+      
+    }
+  }
+
+}
+</script>
+
+
 
 <style scoped>
 
