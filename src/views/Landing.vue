@@ -5,14 +5,14 @@
     <!-- The introductory section -->
     <transition name="fade">
 
-    <section class="xl:flex  flex-wrap justify-between mt-32 p-10 xl:px-32 space-y-8 xl:space-y-0">
+    <section class="xl:flex  flex-wrap justify-between mt-32 p-10 xl:px-32 space-y-36 xl:space-y-0">
 
       <div class="space-y-20 font-body">
 
-        <h1 class="tracking-normal text-xl font-bold text-gray-700"> Hey, I'm Udemezue John</h1>
+        <h1 class=" text-3xl font-normal text-gray-600"> Hey, I'm Udemezue John</h1>
         
   
-        <p class="text-5xl font-body tracking-wider text-gray-700 font-black leading-relaxed"> 
+        <p class="text-5xl font-body tracking-wider text-gray-900 font-black leading-relaxed"> 
           I enjoy designing  tech websites<br> and digital products
           
            </p>
